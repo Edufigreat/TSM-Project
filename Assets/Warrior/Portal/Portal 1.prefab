@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8652882580657572581}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0.11, y: 0, z: 0.18}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 8652882580657739471}
@@ -40,8 +40,8 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8652882580657572581}
   serializedVersion: 6
-  lengthInSec: 0.5
-  simulationSpeed: 0.3
+  lengthInSec: 0.05
+  simulationSpeed: 0.15
   stopAction: 0
   cullingMode: 1
   ringBufferMode: 0
@@ -284,7 +284,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4
+      scalar: 2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -582,7 +582,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 100
+    maxNumParticles: 20
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -728,7 +728,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 5
+      value: 1.22
       mode: 0
       spread: 0
       speed:
@@ -847,7 +847,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15
+      scalar: 14.22
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5001,7 +5001,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.63
+      scalar: 1.07
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -9460,7 +9460,7 @@ Transform:
   m_GameObject: {fileID: 8652882580657572591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 327.6624, y: 1.6094875, z: 192.89659}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.9100007, y: 1.9100007, z: 1.9100007}
   m_Children:
   - {fileID: 8652882580657739463}
   - {fileID: 8652882580657739461}
